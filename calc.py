@@ -6,9 +6,9 @@ def calc(a,b):
 	list = [sum, difference, multiply, divide]
 	sum1 = 0
 	for i in list:
-		sum1 +=1
+		sum1 += i
 
 	sum_of_list = 
-	print(list1)
+	print(sum1)
 
 calc(3,4)
