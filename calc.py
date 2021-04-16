@@ -1,7 +1,7 @@
 def calc(a,b):
 	sum = a + b
-	difference = a - b
-	#multiply = a * b
+	#difference = a - b
+	multiply = a * b
 	#divide = a / b
 	#list = [sum, difference, multiply, divide]
 	#sum1 = 0
@@ -9,6 +9,6 @@ def calc(a,b):
 	#	sum1 += i
 
 	#sum_of_list = 
-	print(difference)
+	print(multiply)
 
 calc(3,4)
