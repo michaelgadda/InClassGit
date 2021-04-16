@@ -3,8 +3,8 @@ import random
 import string
 def password_generator(n): 
 	temp_num = 0
-	pass_string = random.choice(string.ascii_letters)  
-	for i in range(n-1): 
+	#pass_string = random.choice(string.ascii_letters)  
+	for i in range(n): 
 		temp_num = random.randint(1,9)
 		pass_string = str(pass_string) + str(temp_num) 
 
